@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> EV: validate your email</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--  -->
+    <header>
+<nav> 
+    <div class="logo">
+        <img src="https://as1.ftcdn.net/v2/jpg/05/71/85/30/1000_F_571853037_S4a6Ce5uQ9scQIh3nm1p3cTVawumoHwy.jpg" alt="logo" style="
+        width:22px;
+        filter: invert();">
+       <span>EValidator</span>
+    </div>
+    <ul>
+        <li><a href="/">Home </a></li>
+
+        <li><a href="/">About_us</a></li>
+     
+        <li><a href="/">Contact_us</a></li>
+      
+    
+    </ul>
+   
+</nav>
+    </header>
+<!--  -->
+    <main>
+        <div class="container">
+        <h1>Enter your email to validate</h1>
+
+        <form action="/submit"  method="post">
+            <!-- <lable for="username">Email:</lable> -->
+            <input id="username" placeholder="Enter your email to validate" 
+            type="text" name="username" required style="min-width: 500px; padding: 5px;">
+
+<br><br>
+
+
+
+<input id="submitBtn" type="Submit" value="Submit" style="
+background-color:rgb(44, 177, 161);
+color:white;
+padding: 9px 10px;
+border: 2px solid black;
+border-radius: 6px;
+cursor: pointer;">   
+
+    </form>
+</div>
+
+<div  class="container">
+    <h2>
+        Your Results
+       
+    </h2>
+    your results will show here
+    <br>
+    <br>
+
+    <div id="resultCont">
+        
+      </div>
+  
+</div>
+    </main>
+   
+    <!-- 
+     -->
+    <footer>
+       copyright EV.com | All Rights reserved
+    </footer>
+   
+   <!--  -->
+   <script src="js/index.js"></script> 
+</body>
+</html>
